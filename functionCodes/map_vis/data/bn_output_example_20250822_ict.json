@@ -1,0 +1,1106 @@
+{
+  "experiment_summary": {
+    "test_date": "2025/08/22",
+    "description": "2025 Charleston Flood Real-World Validation",
+    "network_type": "121-node Enhanced Bayesian Network",
+    "strategy": "Aggressive Parameters for Maximum Coverage",
+    "total_experiments": 3,
+    "pred_thresholds": [
+      0.3,
+      0.4,
+      0.5
+    ],
+    "timestamp": "2025-08-26 20:31:40",
+    "methodology": "evidence_based_bayesian_inference"
+  },
+  "best_experiment": {
+    "experiment_info": {
+      "test_date": "2025/08/22",
+      "pred_threshold": 0.3,
+      "strategy": "aggressive_2025_validation",
+      "strategy_name": "Aggressive Strategy (121 Nodes)",
+      "network_type": "enhanced_bayesian_network_121_nodes",
+      "performance": {
+        "precision": 1.0,
+        "recall": 0.6818181818181818,
+        "f1_score": 0.8108108108108109,
+        "accuracy": 0.6818181818181818
+      },
+      "network_stats": {
+        "total_nodes": 138,
+        "total_edges": 4165,
+        "coverage_rate": 0.6,
+        "test_roads_covered": "21/35"
+      }
+    },
+    "experiment_details": {
+      "test_date": "2025/08/22",
+      "pred_threshold": 0.3,
+      "network_parameters": {
+        "name": "Aggressive Strategy (121 Nodes)",
+        "occ_thr": 1,
+        "edge_thr": 1,
+        "weight_thr": 0.05,
+        "evidence_ratio": 0.3
+      },
+      "test_roads_total": 35,
+      "test_roads_in_network": 21,
+      "coverage_rate": 0.6,
+      "evidence_roads_count": 13,
+      "prediction_roads_count": 22,
+      "successful_predictions": 22,
+      "failed_predictions": 0,
+      "evidence_roads": [
+        "WASHINGTON_ST",
+        "SOCIETY_ST",
+        "ASHLEY_AVE",
+        "RUTLEDGE_AVE",
+        "KING_ST",
+        "GADSDEN_ST",
+        "OGIER_ST",
+        "HUGER_ST",
+        "BARRE_ST",
+        "BEAUFAIN_ST",
+        "BENNETT_ST",
+        "HAGOOD_AVE",
+        "FISHBURNE_ST"
+      ],
+      "prediction_mode": "corrected_flood_only_validation",
+      "performance_metrics": {
+        "precision": 1.0,
+        "recall": 0.6818181818181818,
+        "f1_score": 0.8108108108108109,
+        "accuracy": 0.6818181818181818,
+        "tp": 15,
+        "fp": 0,
+        "tn": 0,
+        "fn": 7,
+        "total_flood_targets": 22,
+        "network_covered_predictions": 8,
+        "historical_base_predictions": 14
+      },
+      "network_statistics": {
+        "total_nodes": 138,
+        "total_edges": 4165
+      },
+      "detailed_predictions": [
+        {
+          "road_name": "S_BATTERY_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "COOL_BLOW_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "WENTWORTH_ST",
+          "predicted_probability": 0.1143848525298754,
+          "true_label": 1,
+          "predicted_label": 0,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "ST_PHILIP_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "LOCKWOOD_DR",
+          "predicted_probability": 0.14614615022210256,
+          "true_label": 1,
+          "predicted_label": 0,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "NEW_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "N_MARKET_ST",
+          "predicted_probability": 0.20188916164848214,
+          "true_label": 1,
+          "predicted_label": 0,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "MEETING_ST",
+          "predicted_probability": 0.11371973198127458,
+          "true_label": 1,
+          "predicted_label": 0,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "BROAD_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "BEE_ST",
+          "predicted_probability": 0.07417604316230687,
+          "true_label": 1,
+          "predicted_label": 0,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "TRADD_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "N_NASSAU_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "CONROY_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "ROMNEY_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "GORDON_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "COUNCIL_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "CALHOUN_ST",
+          "predicted_probability": 0.3768775720697245,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "E_BAY_ST",
+          "predicted_probability": 0.12527169613077876,
+          "true_label": 1,
+          "predicted_label": 0,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "MORRISON_DR",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "SIMONS_ST",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        },
+        {
+          "road_name": "MARKET_ST",
+          "predicted_probability": 0.029112318840579708,
+          "true_label": 1,
+          "predicted_label": 0,
+          "inference_failed": false,
+          "in_network": true,
+          "inference_type": "bayesian"
+        },
+        {
+          "road_name": "12TH_AVE",
+          "predicted_probability": 0.39452054794520547,
+          "true_label": 1,
+          "predicted_label": 1,
+          "inference_failed": false,
+          "in_network": false,
+          "inference_type": "historical_base"
+        }
+      ]
+    }
+  },
+  "all_experiments": [
+    {
+      "experiment_info": {
+        "test_date": "2025/08/22",
+        "pred_threshold": 0.3,
+        "strategy": "aggressive_2025_validation",
+        "strategy_name": "Aggressive Strategy (121 Nodes)",
+        "network_type": "enhanced_bayesian_network_121_nodes",
+        "performance": {
+          "precision": 1.0,
+          "recall": 0.6818181818181818,
+          "f1_score": 0.8108108108108109,
+          "accuracy": 0.6818181818181818
+        },
+        "network_stats": {
+          "total_nodes": 138,
+          "total_edges": 4165,
+          "coverage_rate": 0.6,
+          "test_roads_covered": "21/35"
+        }
+      },
+      "experiment_details": {
+        "test_date": "2025/08/22",
+        "pred_threshold": 0.3,
+        "network_parameters": {
+          "name": "Aggressive Strategy (121 Nodes)",
+          "occ_thr": 1,
+          "edge_thr": 1,
+          "weight_thr": 0.05,
+          "evidence_ratio": 0.3
+        },
+        "test_roads_total": 35,
+        "test_roads_in_network": 21,
+        "coverage_rate": 0.6,
+        "evidence_roads_count": 13,
+        "prediction_roads_count": 22,
+        "successful_predictions": 22,
+        "failed_predictions": 0,
+        "evidence_roads": [
+          "WASHINGTON_ST",
+          "SOCIETY_ST",
+          "ASHLEY_AVE",
+          "RUTLEDGE_AVE",
+          "KING_ST",
+          "GADSDEN_ST",
+          "OGIER_ST",
+          "HUGER_ST",
+          "BARRE_ST",
+          "BEAUFAIN_ST",
+          "BENNETT_ST",
+          "HAGOOD_AVE",
+          "FISHBURNE_ST"
+        ],
+        "prediction_mode": "corrected_flood_only_validation",
+        "performance_metrics": {
+          "precision": 1.0,
+          "recall": 0.6818181818181818,
+          "f1_score": 0.8108108108108109,
+          "accuracy": 0.6818181818181818,
+          "tp": 15,
+          "fp": 0,
+          "tn": 0,
+          "fn": 7,
+          "total_flood_targets": 22,
+          "network_covered_predictions": 8,
+          "historical_base_predictions": 14
+        },
+        "network_statistics": {
+          "total_nodes": 138,
+          "total_edges": 4165
+        },
+        "detailed_predictions": [
+          {
+            "road_name": "S_BATTERY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "COOL_BLOW_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "WENTWORTH_ST",
+            "predicted_probability": 0.1143848525298754,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "ST_PHILIP_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "LOCKWOOD_DR",
+            "predicted_probability": 0.14614615022210256,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "NEW_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "N_MARKET_ST",
+            "predicted_probability": 0.20188916164848214,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "MEETING_ST",
+            "predicted_probability": 0.11371973198127458,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "BROAD_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "BEE_ST",
+            "predicted_probability": 0.07417604316230687,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "TRADD_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "N_NASSAU_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "CONROY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "ROMNEY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "GORDON_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "COUNCIL_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "CALHOUN_ST",
+            "predicted_probability": 0.3768775720697245,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "E_BAY_ST",
+            "predicted_probability": 0.12527169613077876,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "MORRISON_DR",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "SIMONS_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "MARKET_ST",
+            "predicted_probability": 0.029112318840579708,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "12TH_AVE",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 1,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          }
+        ]
+      }
+    },
+    {
+      "experiment_info": {
+        "test_date": "2025/08/22",
+        "pred_threshold": 0.4,
+        "strategy": "aggressive_2025_validation",
+        "strategy_name": "Aggressive Strategy (121 Nodes)",
+        "network_type": "enhanced_bayesian_network_121_nodes",
+        "performance": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0
+        },
+        "network_stats": {
+          "total_nodes": 138,
+          "total_edges": 4165,
+          "coverage_rate": 0.6,
+          "test_roads_covered": "21/35"
+        }
+      },
+      "experiment_details": {
+        "test_date": "2025/08/22",
+        "pred_threshold": 0.4,
+        "network_parameters": {
+          "name": "Aggressive Strategy (121 Nodes)",
+          "occ_thr": 1,
+          "edge_thr": 1,
+          "weight_thr": 0.05,
+          "evidence_ratio": 0.3
+        },
+        "test_roads_total": 35,
+        "test_roads_in_network": 21,
+        "coverage_rate": 0.6,
+        "evidence_roads_count": 13,
+        "prediction_roads_count": 22,
+        "successful_predictions": 22,
+        "failed_predictions": 0,
+        "evidence_roads": [
+          "WASHINGTON_ST",
+          "SOCIETY_ST",
+          "ASHLEY_AVE",
+          "RUTLEDGE_AVE",
+          "KING_ST",
+          "GADSDEN_ST",
+          "OGIER_ST",
+          "HUGER_ST",
+          "BARRE_ST",
+          "BEAUFAIN_ST",
+          "BENNETT_ST",
+          "HAGOOD_AVE",
+          "FISHBURNE_ST"
+        ],
+        "prediction_mode": "corrected_flood_only_validation",
+        "performance_metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 22,
+          "total_flood_targets": 22,
+          "network_covered_predictions": 8,
+          "historical_base_predictions": 14
+        },
+        "network_statistics": {
+          "total_nodes": 138,
+          "total_edges": 4165
+        },
+        "detailed_predictions": [
+          {
+            "road_name": "S_BATTERY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "COOL_BLOW_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "WENTWORTH_ST",
+            "predicted_probability": 0.1143848525298754,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "ST_PHILIP_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "LOCKWOOD_DR",
+            "predicted_probability": 0.14614615022210256,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "NEW_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "N_MARKET_ST",
+            "predicted_probability": 0.20188916164848214,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "MEETING_ST",
+            "predicted_probability": 0.11371973198127458,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "BROAD_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "BEE_ST",
+            "predicted_probability": 0.07417604316230687,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "TRADD_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "N_NASSAU_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "CONROY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "ROMNEY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "GORDON_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "COUNCIL_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "CALHOUN_ST",
+            "predicted_probability": 0.3768775720697245,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "E_BAY_ST",
+            "predicted_probability": 0.12527169613077876,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "MORRISON_DR",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "SIMONS_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "MARKET_ST",
+            "predicted_probability": 0.029112318840579708,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "12TH_AVE",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          }
+        ]
+      }
+    },
+    {
+      "experiment_info": {
+        "test_date": "2025/08/22",
+        "pred_threshold": 0.5,
+        "strategy": "aggressive_2025_validation",
+        "strategy_name": "Aggressive Strategy (121 Nodes)",
+        "network_type": "enhanced_bayesian_network_121_nodes",
+        "performance": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0
+        },
+        "network_stats": {
+          "total_nodes": 138,
+          "total_edges": 4165,
+          "coverage_rate": 0.6,
+          "test_roads_covered": "21/35"
+        }
+      },
+      "experiment_details": {
+        "test_date": "2025/08/22",
+        "pred_threshold": 0.5,
+        "network_parameters": {
+          "name": "Aggressive Strategy (121 Nodes)",
+          "occ_thr": 1,
+          "edge_thr": 1,
+          "weight_thr": 0.05,
+          "evidence_ratio": 0.3
+        },
+        "test_roads_total": 35,
+        "test_roads_in_network": 21,
+        "coverage_rate": 0.6,
+        "evidence_roads_count": 13,
+        "prediction_roads_count": 22,
+        "successful_predictions": 22,
+        "failed_predictions": 0,
+        "evidence_roads": [
+          "WASHINGTON_ST",
+          "SOCIETY_ST",
+          "ASHLEY_AVE",
+          "RUTLEDGE_AVE",
+          "KING_ST",
+          "GADSDEN_ST",
+          "OGIER_ST",
+          "HUGER_ST",
+          "BARRE_ST",
+          "BEAUFAIN_ST",
+          "BENNETT_ST",
+          "HAGOOD_AVE",
+          "FISHBURNE_ST"
+        ],
+        "prediction_mode": "corrected_flood_only_validation",
+        "performance_metrics": {
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "accuracy": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "tn": 0,
+          "fn": 22,
+          "total_flood_targets": 22,
+          "network_covered_predictions": 8,
+          "historical_base_predictions": 14
+        },
+        "network_statistics": {
+          "total_nodes": 138,
+          "total_edges": 4165
+        },
+        "detailed_predictions": [
+          {
+            "road_name": "S_BATTERY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "COOL_BLOW_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "WENTWORTH_ST",
+            "predicted_probability": 0.1143848525298754,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "ST_PHILIP_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "LOCKWOOD_DR",
+            "predicted_probability": 0.14614615022210256,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "NEW_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "N_MARKET_ST",
+            "predicted_probability": 0.20188916164848214,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "MEETING_ST",
+            "predicted_probability": 0.11371973198127458,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "BROAD_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "BEE_ST",
+            "predicted_probability": 0.07417604316230687,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "TRADD_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "N_NASSAU_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "CONROY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "ROMNEY_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "GORDON_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "COUNCIL_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "CALHOUN_ST",
+            "predicted_probability": 0.3768775720697245,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "E_BAY_ST",
+            "predicted_probability": 0.12527169613077876,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "MORRISON_DR",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "SIMONS_ST",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          },
+          {
+            "road_name": "MARKET_ST",
+            "predicted_probability": 0.029112318840579708,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": true,
+            "inference_type": "bayesian"
+          },
+          {
+            "road_name": "12TH_AVE",
+            "predicted_probability": 0.39452054794520547,
+            "true_label": 1,
+            "predicted_label": 0,
+            "inference_failed": false,
+            "in_network": false,
+            "inference_type": "historical_base"
+          }
+        ]
+      }
+    }
+  ]
+}

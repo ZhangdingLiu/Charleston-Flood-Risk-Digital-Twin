@@ -1,0 +1,281 @@
+{
+  "experiment_info": {
+    "date": "2017/09/11",
+    "threshold": 0.4,
+    "trial_id": 3,
+    "performance": {
+      "precision": 1.0,
+      "recall": 0.42105263157894735,
+      "f1_score": 0.5925925925925926,
+      "accuracy": 0.6666666666666666
+    }
+  },
+  "best_experiment": {
+    "test_date": "2017/09/11",
+    "pred_threshold": 0.4,
+    "trial_id": 3,
+    "test_roads_total": 52,
+    "test_roads_in_network": 26,
+    "evidence_roads_count": 7,
+    "positive_predict_roads_count": 19,
+    "negative_predict_roads_count": 14,
+    "total_predict_roads_count": 33,
+    "successful_predictions": 33,
+    "failed_predictions": 0,
+    "evidence_roads": [
+      "ASHLEY_RIVER_BRIDGE",
+      "CONCORD_ST",
+      "E_BAY_ST",
+      "N_MARKET_ST",
+      "HASELL_ST",
+      "COMING_ST",
+      "SMITH_ST"
+    ],
+    "detailed_predictions": [
+      {
+        "road_name": "LINE_ST",
+        "predicted_probability": 0.11449579831932774,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "CHERRY_ST",
+        "predicted_probability": 0.2615546218487395,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "FISHBURNE_ST",
+        "predicted_probability": 0.5115546218487395,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "PITT_ST",
+        "predicted_probability": 0.09978991596638656,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "MORRIS_ST",
+        "predicted_probability": 0.14390756302521007,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "S_MARKET_ST",
+        "predicted_probability": 0.7468487394957983,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "BEE_ST",
+        "predicted_probability": 0.15861344537815125,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "GADSDEN_ST",
+        "predicted_probability": 0.39390756302521013,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "JONATHAN_LUCAS_ST",
+        "predicted_probability": 0.09978991596638656,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "ASHLEY_AVE",
+        "predicted_probability": 0.9527310924369747,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "CALHOUN_ST",
+        "predicted_probability": 0.7321428571428571,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "OGIER_ST",
+        "predicted_probability": 0.29096638655462187,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "BULL_ST",
+        "predicted_probability": 0.2615546218487395,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "DRAKE_ST",
+        "predicted_probability": 0.17331932773109243,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "BEAUFAIN_ST",
+        "predicted_probability": 0.2615546218487395,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "RUTLEDGE_AVE",
+        "predicted_probability": 0.5703781512605042,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "BENNETT_ST",
+        "predicted_probability": 0.3350840336134454,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "HANOVER_ST",
+        "predicted_probability": 0.14390756302521007,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "BOGARD_ST",
+        "predicted_probability": 0.14390756302521007,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "SPRING_ST",
+        "predicted_probability": 0.2027310924369748,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "SHEPPARD_ST",
+        "predicted_probability": 0.2027310924369748,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "BARRE_ST",
+        "predicted_probability": 0.37920168067226895,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "PRESIDENT_ST",
+        "predicted_probability": 0.42331932773109243,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "SEPTIMA_P_CLARK_PKWY",
+        "predicted_probability": 0.30567226890756305,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "LOCKWOOD_DR",
+        "predicted_probability": 0.2615546218487395,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "HARLESTON_VILLAGE",
+        "predicted_probability": 0.09978991596638656,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "HAGOOD_AVE",
+        "predicted_probability": 1.0,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "VANDERHORST_ST",
+        "predicted_probability": 0.15861344537815125,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "WASHINGTON_ST",
+        "predicted_probability": 0.9086134453781513,
+        "true_label": 1,
+        "predicted_label": 1,
+        "inference_failed": false
+      },
+      {
+        "road_name": "CANNON_ST",
+        "predicted_probability": 0.2027310924369748,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "AMERICA_ST",
+        "predicted_probability": 0.3350840336134454,
+        "true_label": 1,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "CANNON_PARK",
+        "predicted_probability": 0.1880252100840336,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      },
+      {
+        "road_name": "LOCKWOOD_DR_RAMP",
+        "predicted_probability": 0.2615546218487395,
+        "true_label": 0,
+        "predicted_label": 0,
+        "inference_failed": false
+      }
+    ],
+    "precision": 1.0,
+    "recall": 0.42105263157894735,
+    "f1_score": 0.5925925925925926,
+    "accuracy": 0.6666666666666666,
+    "tp": 8,
+    "fp": 0,
+    "tn": 14,
+    "fn": 11,
+    "network_nodes": 40,
+    "network_edges": 39,
+    "bayesian_inference_used": true,
+    "negative_sampling_ratio": 1.0,
+    "prediction_mode": "full_network"
+  }
+}
