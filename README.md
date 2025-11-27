@@ -4,25 +4,12 @@ A full-stack web application for real-time urban flood monitoring using **OpenAI
 
 ## 📹 Demo Videos
 
-### Real-time Flood Risk Prediction (Bayesian Network)
-<video src="https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/bayesi.mp4" controls width="800"></video>
-
-Real-time flood risk prediction using Bayesian network integration.
-
-### VLM-based Flood Sensing Dashboard
-<video src="https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/cameraVLM_Dashboard.mp4" controls width="800"></video>
-
-AI-powered flood detection and analysis using Vision Language Model (GPT-4 Vision) to assess water depth and passability from camera images.
-
-### Roadside Flood Sensor Monitoring
-<video src="https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/sensor.mp4" controls width="800"></video>
-
-Real-time monitoring dashboard displaying data from roadside flood sensors (Hohonu stations).
-
-### Flood Digital Twin Dashboard with Map
-<video src="https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/map.mp4" controls width="800"></video>
-
-Interactive map visualization showing flood conditions across Charleston with integrated sensor data and spatial analysis.
+| Feature | Description | Video |
+|---------|-------------|-------|
+| **🎯 Bayesian Network Prediction** | Real-time flood risk prediction using Bayesian network integration | [▶️ Watch](https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/bayesi.mp4) |
+| **🎯 VLM Flood Sensing** | AI-powered flood detection using Vision Language Model (GPT-4 Vision) to assess water depth and passability | [▶️ Watch](https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/cameraVLM_Dashboard.mp4) |
+| **🎯 Sensor Monitoring** | Real-time monitoring dashboard displaying data from roadside flood sensors (Hohonu stations) | [▶️ Watch](https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/sensor.mp4) |
+| **🎯 Digital Twin Dashboard** | Interactive map visualization showing flood conditions across Charleston with integrated sensor data | [▶️ Watch](https://github.com/ZhangdingLiu/Charleston-Flood-Risk-Digital-Twin/raw/main/demo_videos/map.mp4) |
 
 ## 🏗️ Architecture
 
