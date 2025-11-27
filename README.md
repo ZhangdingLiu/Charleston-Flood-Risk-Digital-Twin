@@ -17,7 +17,7 @@ A full-stack web application for real-time urban flood monitoring using **OpenAI
 **Backend**: Node.js + Express + OpenAI GPT-4 Vision API (Port 5000)
 **Communication**: REST API with CORS enabled
 
-> 💡 全栈的实现在 GenAI Coding 工具帮助下完成
+> 💡 Full-stack implementation developed with assistance from GenAI Coding tools
 
 ## ✨ Key Features
 
